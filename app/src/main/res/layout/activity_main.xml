@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sr.unasat.fragmentsv2.MainActivity">
+
+    <Button
+        android:id="@+id/loadFragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Fragment 1"
+        android:onClick="loadFragmentOne"/>
+
+    <Button
+        android:id="@+id/loadFragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Fragment 2"
+        android:onClick="loadFragmentTwo"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
